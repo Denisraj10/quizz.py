@@ -1,3 +1,4 @@
+
 from cryptography.fernet import Fernet
 
 
@@ -26,6 +27,7 @@ def add():
     pwd = input("Password: ")
 
     with open('passwords.txt', 'a') as f:
+        
         f.write(name + "|" + fer.encrypt(pwd.encode()).decode() + "\n")
 
 
@@ -39,6 +41,7 @@ while True:
         view()
     elif mode == "add":
         add()
+        
     else:
         print("Invalid mode.")
         continue
