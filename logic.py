@@ -36,6 +36,8 @@ for i in range(n):
     p-=1    
     print()    
     
+    
+    
 
 n=int(input("inter num"))
 p=int(input("inter num"))
@@ -45,4 +47,10 @@ for i in range(n):
     p+=2    
     print()    
     
+rows=5
+for i in range(1,row+1):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()    
+
 
