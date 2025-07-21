@@ -24,6 +24,7 @@ def fun_number_pattern():
         print("\n~~~ WILD NUMBER PARTY! ~~~")
         time.sleep(0.3)  # Delay for animation effect
 
+
 if __name__ == "__main__":
     try:
         print("Get ready for a NUMBER BLAST!")
