@@ -19,11 +19,13 @@ for i in range(num):
     
     
 
-num=7
+num=6
 
 for i in range(num):
     print(" "*(num-i-1) ,"*"*(2*i+1))    
     
     
-    
+num=6
+for i in range(num):
+    print(" "*(num-i-2) ,"*"*(2*i+2))        
     
