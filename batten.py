@@ -1,3 +1,12 @@
+num=5
+
+for i in range(num):
+        
+    print("*")
+
+
+
+
 num=7
 
 for i in range(num):
