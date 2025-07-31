@@ -7,6 +7,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
+
 def fun_number_pattern():
     rows = 5  
     symbols = ["*", "#", "@", "!"] 
