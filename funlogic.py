@@ -2,10 +2,8 @@ import time
 import os
 import random
 
-
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
-
 
 
 def fun_number_pattern():
@@ -13,7 +11,7 @@ def fun_number_pattern():
     symbols = ["*", "#", "@", "!"] 
     for _ in range(10): 
         clear_screen()
-        print("🎉 CRAZY NUMBER PYRAMID! 🎉\n")
+        print(" CRAZY NUMBER PYRAMID! \n")
         for i in range(rows):
            
             print(" " * (rows - i - 1), end="")
@@ -34,7 +32,7 @@ if __name__ == "__main__":
         time.sleep(1)
         fun_number_pattern()
         clear_screen()
-        print("Hope you loved the NUMBER MADNESS! 😜")
+        print("Hope you loved the NUMBER MADNESS! ")
     except KeyboardInterrupt:
         clear_screen()
-        print("Number party crashed! See ya! 🚀")
+        print("Number party crashed! See ya! ")
